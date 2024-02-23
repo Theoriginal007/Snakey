@@ -25,7 +25,7 @@ Select the folder where you cloned your repository.
 
 - Run ```game.py```:
 
-With the Python file open, press F5. This will execute ```game.py``` in the integrated terminal.
+With the Python file open, press ```F5``` or ```Ctrl + F5```. This will execute ```game.py``` in the integrated terminal.
 
 - Play the game:
 
