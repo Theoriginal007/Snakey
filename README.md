@@ -2,6 +2,8 @@
 
 The classic snake game made in [Python Tkinter](https://docs.python.org/3/library/tkinter.html). Written for Python3 by [GeeksforGeeks](https://www.geeksforgeeks.org/snake-game-in-python-using-pygame-module/). Licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
 
+![Snake Game image](graphic.jpg)
+
 ## Basic Instructions
 
 Use the arrow keys to move: the left arrow key to move left, the right arrow key to move right, the up arrow key to move up, and the down arrow key to move down.
