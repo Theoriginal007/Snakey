@@ -23,6 +23,10 @@ Select the folder where you cloned your repository.
 
 Make sure Python is installed on your system. You can download it from the official [Python website](https://www.python.org/).
 
+- Play the game:
+
+Once the game is running, follow the instructions to play the Snake Game. Typically, you'll use arrow keys to control the snake.
+
 ## Bugs or Issues
 
 If you find a bug or have an issue with Python Snake, feel free to [Submit an Issue](https://github.com/autruonggiang/Simple-Snake-Game/issues/new).
