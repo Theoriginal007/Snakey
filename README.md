@@ -14,14 +14,18 @@ Use the arrow keys to move: the left arrow key to move left, the right arrow key
 $ git clone https://github.com/autruonggiang/Simple-Snake-Game.git
 ```
 
+- Install Python:
+
+Make sure Python is installed on your system. You can download it from the official [Python website](https://www.python.org/).
+
 - Open the project in Visual Studio Code:
 
 Open Visual Studio Code and click on "File" -> "Open Folder...".
 Select the folder where you cloned your repository.
 
-- Install Python:
+- Run ```game.py```:
 
-Make sure Python is installed on your system. You can download it from the official [Python website](https://www.python.org/).
+With the Python file open, press F5. This will execute ```game.py``` in the integrated terminal.
 
 - Play the game:
 
