@@ -22,7 +22,7 @@ Use the arrow keys to move: the left arrow key to move left, the right arrow key
 2. Run the following command to download and play Python Snake! Note that this will download a file called ```snake.py``` into your current working directory.
  
     ```bash
-    curl https://xtrp.github.io/python-snake/snake.py -o snake.py && python snake.py
+    curl https://xtrp.github.io/Simple-Snake-Game/game.py -o game.py && python game.py
     ```
 
 ## Bugs or Issues
