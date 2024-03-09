@@ -39,5 +39,5 @@ Once the game is running, follow the instructions to play the Snake Game. Typica
 
 ## About the Game
 <div align='center'>
-<h4> <span> · </span> <a href="https://github.com/autruonggiang/Simple-Snake-Game/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/autruonggiang/Simple-Snake-Game/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/autruonggiang/Simple-Snake-Game/issues"> Request Feature </a> </h4>
+<h4> <span> · </span> <a href="https://www.youtube.com/watch?v=SUtHKHwUKT4"> Documentation </a> <span> · </span> <a href="https://github.com/autruonggiang/Simple-Snake-Game/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/autruonggiang/Simple-Snake-Game/issues"> Request Feature </a> </h4>
 </div>
