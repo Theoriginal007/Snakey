@@ -8,6 +8,8 @@ The classic snake game made in [Python Tkinter](https://docs.python.org/3/librar
 Simple Snake Game
 </div>
 
+<h4> <span> · </span> <a href="https://github.com/autruonggiang/Simple-Snake-Game/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/autruonggiang/Simple-Snake-Game/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/autruonggiang/Simple-Snake-Game/issues"> Request Feature </a> </h4>
+
 ## Basic Instructions
 
 Use the arrow keys to move: the left arrow key to move left, the right arrow key to move right, the up arrow key to move up, and the down arrow key to move down.
