@@ -8,10 +8,6 @@ The classic snake game made in [Python Tkinter](https://docs.python.org/3/librar
 Simple Snake Game
 </div>
 
-<div align='center'>
-<h4> <span> · </span> <a href="https://github.com/autruonggiang/Simple-Snake-Game/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/autruonggiang/Simple-Snake-Game/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/autruonggiang/Simple-Snake-Game/issues"> Request Feature </a> </h4>
-</div>
-
 ## Basic Instructions
 
 Use the arrow keys to move: the left arrow key to move left, the right arrow key to move right, the up arrow key to move up, and the down arrow key to move down.
@@ -41,6 +37,7 @@ With the Python file open, press ```F5``` or ```Ctrl + F5```. This will execute 
 
 Once the game is running, follow the instructions to play the Snake Game. Typically, you'll use arrow keys to control the snake.
 
-## Bugs or Issues
-
-If you find a bug or have an issue with Python Snake, feel free to [Submit an Issue](https://github.com/autruonggiang/Simple-Snake-Game/issues/new).
+## About the Game
+<div align='center'>
+<h4> <span> · </span> <a href="https://github.com/autruonggiang/Simple-Snake-Game/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/autruonggiang/Simple-Snake-Game/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/autruonggiang/Simple-Snake-Game/issues"> Request Feature </a> </h4>
+</div>
