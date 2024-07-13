@@ -28,7 +28,7 @@ In this game, you control a snake that moves around the window. The objective is
    ```bash
    python snake_game.py
 
-How to Play
+## How to Play
 Use the arrow keys to control the direction of the snake:
 Left Arrow: Move left
 Right Arrow: Move right
@@ -40,7 +40,7 @@ Avoid colliding with the boundaries of the window or the snake's own body, as th
 The game continues until the snake collides with the boundaries or itself, at which point the game over screen will be displayed.
 
 
-Code Overview
+## Code Overview
 Snake Class
 The Snake class is responsible for creating and managing the snake's body. It initializes the snake's size and positions its initial coordinates.
 
@@ -52,6 +52,3 @@ next_turn(snake, food): Handles the snake's movement, collision detection, and f
 change_direction(new_direction): Changes the snake's direction based on user input.
 check_collisions(snake): Checks if the snake has collided with the boundaries or itself.
 game_over(): Displays the game over screen.
-UI Components
-label: Displays the current score.
-canvas: The main game area where the snake and food are drawn.
