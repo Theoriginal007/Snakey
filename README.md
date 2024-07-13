@@ -1,43 +1,57 @@
-# Python Snake Game
+# Snake Game
 
-The classic snake game made in [Python Tkinter](https://docs.python.org/3/library/tkinter.html). Written for Python3 by [GeeksforGeeks](https://www.geeksforgeeks.org/snake-game-in-python-using-pygame-module/). Licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+This is a simple implementation of the classic Snake game using Python and the `tkinter` library.
 
-<div align="center">
-<img src="graphic.jpg" alt="Snake Game image">
+## Game Description
 
-Simple Snake Game
-</div>
+In this game, you control a snake that moves around the window. The objective is to eat the food that appears randomly on the screen. Each time the snake eats the food, it grows longer, and your score increases. The game ends if the snake collides with the boundaries of the window or with itself.
 
-## Basic Instructions
+## Features
 
-Use the arrow keys to move: the left arrow key to move left, the right arrow key to move right, the up arrow key to move up, and the down arrow key to move down.
+- Simple graphics using `tkinter`
+- Snake grows in length when it eats the food
+- Score display
+- Game over detection
 
-## How to play
+## Requirements
 
-- Clone the repository:
+- Python 3.x
+- `tkinter` library (usually comes pre-installed with Python)
 
-```
-$ git clone https://github.com/autruonggiang/Simple-Snake-Game.git
-```
+## How to Run
 
-- Install Python:
+1. Make sure you have Python installed on your system.
+2. Copy the `snake_game.py` file to your local machine.
+3. Open a terminal or command prompt and navigate to the directory where `snake_game.py` is located.
+4. Run the script using the following command:
 
-Make sure Python is installed on your system. You can download it from the official [Python website](https://www.python.org/).
+   ```bash
+   python snake_game.py
 
-- Open the project in Visual Studio Code:
+How to Play
+Use the arrow keys to control the direction of the snake:
+Left Arrow: Move left
+Right Arrow: Move right
+Up Arrow: Move up
+Down Arrow: Move down
+The snake will start moving in the direction it is facing. Change direction using the arrow keys to navigate the snake towards the food.
+When the snake eats the food, it grows longer, and your score increases.
+Avoid colliding with the boundaries of the window or the snake's own body, as this will end the game.
+The game continues until the snake collides with the boundaries or itself, at which point the game over screen will be displayed.
 
-Open Visual Studio Code and click on "File" -> "Open Folder...".
-Select the folder where you cloned your repository.
 
-- Run ```game.py```:
+Code Overview
+Snake Class
+The Snake class is responsible for creating and managing the snake's body. It initializes the snake's size and positions its initial coordinates.
 
-With the Python file open, press ```F5``` or ```Ctrl + F5```. This will execute ```game.py``` in the integrated terminal.
+Food Class
+The Food class creates the food at random positions within the window. When the snake eats the food, a new food item is created.
 
-- Play the game:
-
-Once the game is running, follow the instructions to play the Snake Game. Typically, you'll use arrow keys to control the snake.
-
-## About the Game
-<div align='center'>
-<h4> <span> · </span> <a href="https://www.youtube.com/watch?v=SUtHKHwUKT4"> Documentation </a> <span> · </span> <a href="https://github.com/autruonggiang/Simple-Snake-Game/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/autruonggiang/Simple-Snake-Game/issues"> Request Feature </a> </h4>
-</div>
+Main Functions
+next_turn(snake, food): Handles the snake's movement, collision detection, and food consumption.
+change_direction(new_direction): Changes the snake's direction based on user input.
+check_collisions(snake): Checks if the snake has collided with the boundaries or itself.
+game_over(): Displays the game over screen.
+UI Components
+label: Displays the current score.
+canvas: The main game area where the snake and food are drawn.
